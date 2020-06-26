@@ -1,0 +1,2 @@
+# JavaAlgoStructure
+study purpose
