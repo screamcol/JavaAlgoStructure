@@ -13,7 +13,7 @@ public class Main {
     static int binaryInvolution(int number, int power) {
         int res = 1;
         while (power > 0)
-            if (power % 2 == 1) {
+            if ((power & 1) == 1) {
                 res *= number;
                 --power;
             }
